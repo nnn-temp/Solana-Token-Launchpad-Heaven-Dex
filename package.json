@@ -1,0 +1,36 @@
+{
+  "name": "bnb-volume-bot",
+  "version": "1.0.0",
+  "description": "BNB Volume Bot for Fourmeme and PancakeSwap - Automated trading bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "bnb",
+    "volume-bot",
+    "trading-bot",
+    "defi",
+    "pancakeswap",
+    "fourmeme",
+    "bsc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.4.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
